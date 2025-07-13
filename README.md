@@ -26,6 +26,12 @@ A modern and simple JavaFX-based desktop application to store, view, and manage 
 
 ---
 
+## 📷 Screenshot
+
+![alt text](image.png)
+
+---
+
 ## 🚀 How to Run
 
 1. Make sure Java 17+ and JavaFX SDK are installed
