@@ -28,7 +28,8 @@ A modern and simple JavaFX-based desktop application to store, view, and manage 
 
 ## 📷 Screenshot
 
-![alt text](image.png)
+<img width="751" height="971" alt="image" src="https://github.com/user-attachments/assets/1fc8fe38-f1fc-49c5-949b-9e27fe3ee9bc" />
+
 
 ---
 
