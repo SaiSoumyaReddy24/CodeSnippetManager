@@ -1,0 +1,15 @@
+# Ignore compiled files
+/out/
+*.class
+
+# Ignore database
+snippets.db
+
+# Ignore IDE and OS files
+*.iml
+*.log
+.DS_Store
+*.swp
+
+# Ignore dependencies
+/lib/

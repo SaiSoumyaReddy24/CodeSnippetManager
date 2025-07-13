@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.SnippetController">
+
+    <top>
+        <ToolBar>
+            <Button text="Add Snippet" onAction="#handleAdd"/>
+            <Button text="Delete Selected" onAction="#handleDeleteSnippet"/>
+            <Button text="Export All" onAction="#handleExport"/>
+        </ToolBar>
+    </top>
+
+    <center>
+        <TableView fx:id="snippetTable">
+            <columns>
+                <TableColumn fx:id="titleColumn" text="Title" prefWidth="150"/>
+                <TableColumn fx:id="languageColumn" text="Language" prefWidth="100"/>
+                <TableColumn fx:id="createdColumn" text="Created At" prefWidth="150"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <VBox spacing="5">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+            <TextField fx:id="titleField" promptText="Title"/>
+            <TextField fx:id="languageField" promptText="Language"/>
+            <TextArea fx:id="codeArea" promptText="Enter code here..." prefRowCount="5"/>
+        </VBox>
+    </bottom>
+
+</BorderPane>
